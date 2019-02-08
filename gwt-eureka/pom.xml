@@ -10,7 +10,7 @@
 
 	<groupId>com.blogspot.ctasada.gwt-eureka</groupId>
 	<artifactId>gwt-eureka</artifactId>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>GWT-Eureka</name>
 	<description>A widgets library for GWT</description>
@@ -21,7 +21,7 @@
 	</prerequisites>
 
 	<properties>
-		<gwt.version>2.4.0</gwt.version>
+		<gwt.version>2.8.2</gwt.version>
 	</properties>
 
 	<licenses>
@@ -49,11 +49,24 @@
 		</developer>
 	</developers>
 
+	<contributors>
+    <contributor>
+			<name>Thad Humphries</name>
+			<url>https://github.com/johnthad</url>
+			<organization>Mindwrap, Inc.</organization>
+      <organizationUrl>https://mindwrap.com</organizationUrl>
+			<timezone>America/New_York</timezone>
+			<roles>
+				<role>reviser</role>
+			</roles>
+    </contributor>
+  </contributors>
+
 	<!-- NOT ALLOWED: When using the Maven Central Repository -->
 	<scm>
-		<connection>scm:git:git@github.com:ctasada/GWT-Eureka.git</connection>
-		<developerConnection>scm:git:git@github.com:ctasada/GWT-Eureka.git</developerConnection>
-		<url>https://github.com/ctasada/GWT-Eureka</url>
+		<connection>scm:git:git@github.com:johnthad/GWT-Eureka.git</connection>
+		<developerConnection>scm:git:git@github.com:johnthad/GWT-Eureka.git</developerConnection>
+		<url>https://github.com/johnthad/GWT-Eureka</url>
 	</scm>
 
 	<build>
@@ -62,8 +75,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
