@@ -2,19 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<!--
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
+  -->
 
 	<groupId>com.blogspot.ctasada.gwt-eureka</groupId>
 	<artifactId>gwt-eureka</artifactId>
 	<version>0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>GWT-Eureka</name>
-	<description>A widgets library for GWT</description>
-	<url>https://github.com/ctasada/GWT-Eureka</url>
+	<description>GWT-Eureka upgraded and stripped to time widgets.</description>
+	<url>https://github.com/johnthad/GWT-Eureka</url>
 	
 	<prerequisites>
 		<maven>2.2.1</maven>
